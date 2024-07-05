@@ -1,0 +1,1168 @@
+
+@import url('site.css');
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@font-face {
+    font-family: 'Snell Roundhand Script';
+    src: url('fonts/snell-roundhand-script.ttf');
+    src: url('fonts/snell-roundhand-script.ttf?#iefix') format('embedded-opentype'), url('../fonts/snell-roundhand-script.woff') format('woff'), url('fonts/snell-roundhand-script.ttf') format('truetype'), url('../fonts/snell-roundhand-script.svg#Snell Roundhand Script') format('svg');
+}
+
+h2 {
+    font-family: 'Snell Roundhand Script';
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('fonts/avenirnextcyr-light.ttf');
+    src: url('fonts/avenirnextcyr-light.ttf?#iefix') format('embedded-opentype'), url('../fonts/avenirnextcyr-light.woff') format('woff'), url('fonts/avenirnextcyr-light.ttf') format('truetype'), url('../fonts/avenirnextcyr-light.svg#Snell Roundhand Script') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr Bold';
+    src: url('fonts/avenirnextcyr-bold.ttf');
+    src: url('fonts/avenirnextcyr-bold.ttf?#iefix') format('embedded-opentype'), url('../fonts/avenirnextcyr-bold.woff') format('woff'), url('fonts/avenirnextcyr-bold.ttf') format('truetype'), url('../fonts/avenirnextcyr-bold.svg#Snell Roundhand Script') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr Medium';
+    src: url('fonts/avenirnextcyr-medium.ttf');
+    src: url('fonts/avenirnextcyr-medium.ttf?#iefix') format('embedded-opentype'), url('../fonts/avenirnextcyr-medium.woff') format('woff'), url('fonts/avenirnextcyr-medium.ttf') format('truetype'), url('../fonts/avenirnextcyr-medium.svg#Snell Roundhand Script') format('svg');
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    background-position: top;
+    margin: 0%;
+    padding: 0px;
+    height: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*position: fixed;
+    width: 100%;*/
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.lefttext {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 5px 5px; /* ќтступы вокруг фотографии */
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    /*margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+
+
+    .lefttext:visited {
+        color: rgb(43, 43, 43); /* ÷вет посещЄнной ссылки */
+    }
+
+    /*.lefttext:hover {*/
+    /*    color: #CE242B; !* ÷вет ссылки при наведении *!*/
+    /*    text-decoration: none; !* ƒобавл€ем подчЄркивание *!*/
+    /*}*/
+
+    .lefttext:hover {
+        color: #483D8B; /* ÷вет ссылки при наведении */
+        text-decoration: none; /* ƒобавл€ем подчЄркивание */
+    }
+
+.iconleft {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 5px 5px; /* ќтступы вокруг фотографии */
+    margin-right: 10px;
+/*    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;*/
+}
+
+.iconright {
+    float: right; /* ¬ыравнивание по правому краю */
+    margin: 0 0 5px 5px; /* ќтступы вокруг фотографии */
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.cursive-text{
+    color: #483D8B;
+}
+
+.rightpic {
+    float: right; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+
+}
+
+.leftpic {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+}
+
+.righttext {
+    float: right; /* ¬ыравнивание по правому краю */
+    margin: 0 0 5px 5px; /* ќтступы вокруг фотографии */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.graydiv {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+}
+
+
+
+.line {
+    display: inline-block;
+}
+
+/*.leftinfo {*/
+/*    float: left; !* ¬ыравнивание по правому краю *!*/
+/*    margin: 0 0 0 0; !* ќтступы вокруг фотографии *!*/
+/*    background-image: url('images/infofon2.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    text-align: left;*/
+/*    vertical-align: central;*/
+/*    padding-right: 12%;*/
+/*    padding-top: 20%;*/
+/*    padding-left: 10%;*/
+/*}*/
+
+.leftinfo {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+    background-image: url('images/purplebackleft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    vertical-align: central;
+    padding-right: 12%;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+/*.rightinfo {*/
+/*    float: right; !* ¬ыравнивание по правому краю *!*/
+/*    margin: 0 0 0 0; !* ќтступы вокруг фотографии *!*/
+/*    background-image: url('images/infofon3.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    text-align: left;*/
+/*    vertical-align: central;*/
+/*    padding-left: 12%;*/
+/*    padding-top: 20%;*/
+/*    padding-right: 10%;*/
+/*}*/
+
+
+
+.coc1 {
+    background-image: url('images/coc2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    color: white;
+    margin-right: 2%;
+    margin-left: 3%;
+    float: left;
+    text-align: center;
+    display: grid;
+    align-items: end;
+    padding-bottom: 1%;
+    cursor: pointer;
+    padding-top: 10%;
+}
+
+.coc2 {
+    background-image: url('images/coc1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    color: white;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+    display: grid;
+    align-items: end;
+    padding-bottom: 1%;
+    cursor: pointer;
+    padding-top: 10%;
+}
+
+
+.coc3 {
+    background-image: url('images/coc3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    color: white;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+    display: grid;
+    align-items: end;
+    padding-bottom: 1%;
+    cursor: pointer;
+    padding-top: 10%;
+}
+
+/*.cocbut {*/
+/*    background-color: firebrick;*/
+/*    color: white;*/
+/*    border-radius: 5px;*/
+/*    width: auto;*/
+/*    height: 30px;*/
+/*    outline: none;*/
+/*    border: 0px;*/
+/*    cursor: pointer;*/
+/*    align-content: center;*/
+/*    padding-bottom: 5px;*/
+/*    padding-left: 15px;*/
+/*    padding-right: 15px;*/
+/*}*/
+
+
+.cocbut {
+    background-color: #483D8B;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+td{
+    width: 200px;
+    height: 25px;
+}
+
+
+.menuprod {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 14%;
+    /* height: 500px; */
+    height: 300px;
+    color: black;
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+    display: grid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.tovtext {
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    /*margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+
+
+    .tovtext:visited {
+        color: rgb(59, 59, 59); /* ÷вет посещЄнной ссылки */
+    }
+
+    .tovtext:hover {
+        color: rgb(128, 128, 128); /* ÷вет ссылки при наведении */
+        text-decoration: none; /* ƒобавл€ем подчЄркивание */
+    }
+
+
+.tovimg{
+    margin-top: 0px;
+}
+
+/*.cartbut {*/
+/*    background-color: firebrick;*/
+/*    color: white;*/
+/*    border-radius: 5px;*/
+/*    width: 50%;*/
+/*    outline: none;*/
+/*    border: 0px;*/
+/*    cursor: pointer;*/
+/*    align-content: center;*/
+/*    padding-bottom:5px;*/
+/*}*/
+
+.cartbut {
+    background-color: #483D8B;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom:5px;
+}
+
+
+.winname {
+   /* background-image: url('../images/winname.png');*/
+   background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: central;
+    color: white;
+}
+
+.blackdiv {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+
+
+
+.leftmenuinfo {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+    background-color: rgb(235, 235, 235);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    vertical-align: central;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.rightmenuinfo {
+    float: right; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    vertical-align: central;
+    padding-left: 3%;
+    padding-top: 20px;
+    padding-right: 3%;
+    margin-bottom: 4%;
+
+}
+
+.product {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 30%;
+    height: 310px;
+    color: black;
+    margin-right: 3%;
+    float: left;
+    text-align: center;
+    display: grid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+
+.prodwintext {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 5px 5px; /* ќтступы вокруг фотографии */
+    border-radius: 10px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    margin-bottom: 10px;
+    /*margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+
+
+    .prodwintext:visited {
+        color: rgb(43, 43, 43); /* ÷вет посещЄнной ссылки */
+    }
+
+    /*.prodwintext:hover {*/
+    /*    color: #CE242B; !* ÷вет ссылки при наведении *!*/
+    /*    text-decoration: none; !* ƒобавл€ем подчЄркивание *!*/
+    /*}*/
+
+    .prodwintext:hover {
+        color: #483D8B; /* ÷вет ссылки при наведении */
+        text-decoration: none; /* ƒобавл€ем подчЄркивание */
+    }
+
+
+
+.neob {
+    background-color: rgb(219, 188, 131);
+    color: rgb(59, 59, 59);
+    width: 90%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+
+
+.leftlog {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    text-align: left;
+    vertical-align: central;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom : 3%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-left: 16%;
+    border-right: 1px solid darkgray;
+}
+
+.rightlog {
+    float: right; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    height: 100%;
+    text-align: left;
+    vertical-align: central;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-right: 16%;
+}
+
+/*.logbut {*/
+/*    background-color: firebrick;*/
+/*    color: white;*/
+/*    border-radius: 5px;*/
+/*    width: 100%;*/
+/*    height: 35px;*/
+/*    outline: none;*/
+/*    border: 0px;*/
+/*    cursor: pointer;*/
+/*    align-content: center;*/
+/*    padding-bottom: 5px;*/
+/*}*/
+
+
+.logbut {
+    background-color: #483D8B;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 5px;
+}
+
+.log2but {
+    background-color: lightgray;
+    color: Black;
+    border-radius: 5px;
+    width: auto;
+    height: 35px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.centerdiv {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*.cartbut {*/
+/*    background-color: firebrick;*/
+/*    color: white;*/
+/*    border-radius: 5px;*/
+/*    width: auto;*/
+/*    height: 35px;*/
+/*    outline: none;*/
+/*    border: 0px;*/
+/*    cursor: pointer;*/
+/*    align-content: center;*/
+/*    padding-bottom: 5px;*/
+/*    padding-left: 20px;*/
+/*    padding-right: 20px;*/
+/*}*/
+
+
+.cartbut {
+    background-color: #483D8B;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 35px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.product-button {
+    background-color: #483D8B;
+    color: white;
+    border-radius: 10px;
+    width: auto;
+    height: 35px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/*.newsfotoleft{*/
+/*    height: auto;*/
+/*    width: 40%;*/
+/*    padding-left: 3%;*/
+/*    padding-right: 7%;*/
+/*}*/
+
+/*.newsfotoright{*/
+/*    height: auto;*/
+/*    width: 40%;*/
+/*    padding-left: 7%;*/
+/*    padding-right: 3%;*/
+/*}*/
+
+.newsform{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+
+
+.newsfotoleft{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 7%;
+    border-radius: 7%;
+    /*padding-right: 7%;*/
+    margin-bottom: 50px;
+}
+
+.newsfotoright{
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 7%;
+    border-radius: 7%;
+    /*padding-left: 7%;*/
+    margin-bottom: 50px;
+}
+
+.heading{
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: larger;
+}
+.dateheading{
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: large;
+    color: darkgray;
+}
+
+.newsfoto{
+    width: 30%;
+    margin-left: 2.3%;
+    border-radius: 7%;
+    /*padding-left: 7%;*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.newsfototest{
+    width: 30%;
+    margin-left: 2.3%;
+    border-radius: 7%;
+    /*padding-left: 7%;*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    padding-top: 30%;
+    position: relative;
+    cursor: pointer;
+    background-size:100% 100%;
+    display: inline-block;
+}
+
+
+.newsname{
+    font-family: 'Avenir Next Cyr';
+    font-weight: bolder;
+    font-size: smaller;
+    color: white;
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 3%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.newstext{
+    font-family: 'Avenir Next Cyr Medium';
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 8%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.newsarea{
+    width: 100%;
+    display: flex;
+}
+
+.map{
+    width: 100%;
+    height: 700px;
+    background-color: #333;
+}
+
+[class*="copyrights-pane"] {
+    display: none !important;
+}
+
+[class*="balloon__close-button"] {
+    /*margin: 5px;*/
+    width: 15px;
+    height: 15px;
+    background: url(https://img.icons8.com/ios/50/FFFFFF/multiply.png) 50% no-repeat;
+}
+
+[class*="map"] {
+    border-radius: 7px;
+}
+
+
+.balloon{
+    width: 300px;
+    height: 450px;
+    border-radius: 7%;
+}
+
+
+.ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content{
+    padding: 0;
+}
+
+/*.ymaps-2-1-79-balloon__close-button {*/
+/*    margin: 5px;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    background: url(https://img.icons8.com/ios/50/FFFFFF/multiply.png) 50% no-repeat;*/
+/*}*/
+
+.ymaps-2-1-79-balloon__layout{
+    width: 300px;
+}
+
+.balloon_text{
+    font-family: 'Avenir Next Cyr';
+}
+
+.balloon_name{
+    font-family: 'Avenir Next Cyr Medium';
+}
+
+.balloon_address{
+    font-family: 'Avenir Next Cyr';
+    color: darkgray;
+}
+
+.balloon_image{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.balloon_text_block{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.balloon_link{
+    font-family: 'Avenir Next Cyr Medium';
+    padding-top: 10px;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+
+.breedsname{
+    font-family: 'Avenir Next Cyr';
+    font-weight: bolder;
+    font-size: smaller;
+    color: black;
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 3%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-shadow: 1px 1px 2px grey;
+}
+.breedstext{
+    font-family: 'Avenir Next Cyr Medium';
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    padding-left: 4%;
+    padding-top: 8%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.breedsfoto{
+    width: 30%;
+    margin-left: 2.3%;
+    border-radius: 7%;
+    /*padding-left: 7%;*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+    padding-top: 30%;
+    position: relative;
+    cursor: pointer;
+    background-size:100% 100%;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------
+ */
+
+
+a{
+    font-family: 'Avenir Next Cyr';
+}
+
+.main-image{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.small-image{
+    width: 20%;
+    max-width: 255px;
+    height: auto;
+}
+
+.title-text{
+    color: #7a5c36;
+}
+
+.heart{
+    width: 30px;
+    height: auto;
+}
+
+.blue-text{
+    color: #8dc3d3;
+}
+
+.div-90{
+    width: 90%;
+}
+
+.div-90-form{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#countdown {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.time-section {
+    text-align: center;
+}
+
+.time-section span {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 0.8em;
+    /*color: #ab5656;*/
+}
+
+.blue-button {
+    font-family: 'Avenir Next Cyr';
+    background-color: #8dc3d3;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.wrapper {
+    display: grid;
+}
+
+.div-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leftpic, .rightinfo{
+    flex: 1;
+}
+
+.leftpic {
+    float: left; /* ¬ыравнивание по правому краю */
+    width: 48%;
+    height: auto;
+    margin: 0 0 0 0; /* ќтступы вокруг фотографии */
+}
+
+.rightinfo {
+    float: left; /* ¬ыравнивание по правому краю */
+    margin: 0 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+.numbers-div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-100{
+    width: 100%;
+}
+
+.div-100-image{
+    width: 100%;
+    background-image: url('images/div-back.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div-90-text{
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+}
+
+.photo-desk{
+    background-color: #c4a581;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+}
+
+.blue-question-button {
+    font-family: 'Avenir Next Cyr';
+    background-color: #8dc3d3;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.map{
+    width: 100%;
+    height: 30%;
+    border-radius: 15px;
+}
+
+footer {
+    width: 100%;
+    background-image: url('images/hands.jpg');
+    background-size: 100%;
+    color: white;
+    padding-top: 50px;
+}
+
+.footertext {
+    /*font-family: 'Avenir Next Cyr Medium';*/
+    font-family: 'Avenir Next Cyr';
+    color: white;
+    text-decoration: none;
+    /*margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+.footertext:visited {
+    color: white; /* ÷вет посещЄнной ссылки */
+}
+
+.footertext:hover {
+    color: white; /* ÷вет ссылки при наведении */
+    text-decoration: none; /* ƒобавл€ем подчЄркивание */
+}
+
+
+.map{
+    border-radius: 20px;
+    width: 90%;
+    height: 300px;
+    background-color: #333;
+    border: 2px solid #8dc3d3;
+}
+
+[class*="copyrights-pane"] {
+    display: none !important;
+}
+
+[class*="balloon__close-button"] {
+    /*margin: 5px;*/
+    width: 15px;
+    height: 15px;
+    background: url(https://img.icons8.com/ios/50/FFFFFF/multiply.png) 50% no-repeat;
+}
+
+[class*="map"] {
+    border-radius: 15px;
+}
+
+
+.balloon{
+    width: 300px;
+    height: 120px;
+    border-radius: 7%;
+}
+
+
+.ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content{
+    padding: 0;
+}
+
+/*.ymaps-2-1-79-balloon__close-button {*/
+/*    margin: 5px;*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    background: url(https://img.icons8.com/ios/50/FFFFFF/multiply.png) 50% no-repeat;*/
+/*}*/
+
+.ymaps-2-1-79-balloon__layout{
+    width: 300px;
+}
+
+.balloon_text{
+    font-family: 'Avenir Next Cyr';
+}
+
+.balloon_name{
+    font-family: 'Avenir Next Cyr Medium';
+}
+
+.balloon_address{
+    font-family: 'Avenir Next Cyr';
+    color: darkgray;
+}
+
+
+.balloon_text_block{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+
+
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    color: #A9BDC9;
+}
+
+.form-container p {
+    font-size: 16px;
+    color: #A9BDC9;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.call-img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.desk-img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
+
+
+
+

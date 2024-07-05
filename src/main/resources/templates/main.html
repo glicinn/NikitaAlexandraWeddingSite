@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nikita&Alexandra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/site.css"/>
+    <link rel="shortcut icon" href="/css/images/lil-heart.png" />
+    <!--    <link  rel="stylesheet" type="text/css" href="site.css"/>-->
+
+    <!-- Bootstrap 4 -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!--  <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>-->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ab05b7ce-3a0c-47ef-96dc-64ae53b77736&lang=ru_RU">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.5/inputmask.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <!-- -->
+    <style>
+        .input-container {
+            position: relative;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .input-container input {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            width: 100%;
+            font-size: 16px;
+            padding: 8px 0;
+            background: none;
+        }
+
+        .input-container label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 16px;
+            color: black;
+            transition: 0.3s ease all;
+            pointer-events: none;
+            transform-origin: left top;
+        }
+
+        .input-container input:focus + label,
+        .input-container input:not(:placeholder-shown) + label {
+            top: -20px;
+            font-size: 12px;
+            color: #000;
+        }
+
+        .phone-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .phone-container input {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            width: 75%;
+            font-size: 16px;
+            padding: 8px 0;
+            background: none;
+        }
+
+        .phone-container select {
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            width: 18%;
+            font-size: 16px;
+            padding: 8px 0;
+            background: none;
+        }
+
+        .phone-container label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 16px;
+            color: #999;
+            transition: 0.3s ease all;
+            pointer-events: none;
+            transform-origin: left top;
+        }
+
+        .phone-container input:focus + label,
+        .phone-container input:not(:placeholder-shown) + label {
+            top: -20px;
+            font-size: 12px;
+            color: #000;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+<!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">-->
+<!--    <div class="carousel-inner">-->
+<!--        <div class="carousel-item active">-->
+<!--            <img class="d-block w-100" src="/css/images/doglist1.jpg">-->
+<!--        </div>-->
+<!--        <div class="carousel-item">-->
+<!--            <img class="d-block w-100" src="/css/images/doglist2.jpg">-->
+<!--        </div>-->
+<!--        &lt;!&ndash;    <div class="carousel-item">&ndash;&gt;-->
+<!--        &lt;!&ndash;      <img class="d-block w-100" src="/css/images/car3.png">&ndash;&gt;-->
+<!--        &lt;!&ndash;    </div>&ndash;&gt;-->
+<!--    </div>-->
+<!--    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">-->
+<!--        <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+<!--        <span class="sr-only">Previous</span>-->
+<!--    </a>-->
+<!--    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">-->
+<!--        <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+<!--        <span class="sr-only">Next</span>-->
+<!--    </a>-->
+<!--</div>-->
+
+<!--<div class="mainimage">-->
+<!--    <img src="/css/images/sn1.jpg"/>-->
+<!--</div>-->
+
+<center>
+    <!--    <img class="main-image" src="/css/images/sn1.jpg">-->
+    <img class="main-image" src="/css/images/sa-main.jpg">
+</center>
+
+<center>
+    <br />
+    <h1 style="font-family: 'Snell Roundhand Script';"><font class="title-text">Nikita & Alexandra</font></h1>
+    <a><font>Друзья и родные, наша история любви переходит<br />на новый этап, и мы хотели бы поделиться этой<br>радостью с вами! </font> </a>
+    <br />
+</center>
+
+<br>
+
+<center>
+    <img class="heart" src="/css/gifs/heart.gif" width="250" />
+</center>
+
+<center>
+    <br>
+    <h1 style="font-family: 'Snell Roundhand Script';"><font class="blue-text">01.08.2024</font></h1>
+    <a><font><i>ПРИГЛАШАЕМ ВАС НА НАШ<br><span class="blue-text">СВАДЕБНЫЙ САЙТ</span></i>, где мы<br>собрали все детали нашего<br>праздника</font> </a>
+    <br><br>
+    <a>Будем счастливы видеть вас рядом<br>с нами в этот особенный день!</a>
+    <br><br>
+</center>
+
+<center>
+    <!--<img class="small-image" src="/css/images/sn2.jpg">-->
+    <img class="small-image" src="/css/images/sa-small.png">
+</center>
+
+<br><br>
+
+
+<div class="div-100">
+    <center>
+        <a><big>
+            <div id="countdown">
+                <div class="time-section">
+                    <div class="label">Дни</div>
+                    <span id="days"></span>
+                </div>
+                <br>
+                <div class="time-section">
+                    <div class="label">Часы</div>
+                    <span id="hours"></span>
+                </div>
+                <br>
+                <div class="time-section">
+                    <div class="label">Минуты</div>
+                    <span id="minutes"></span>
+                </div>
+                <br>
+                <div class="time-section">
+                    <div class="label">Секунды</div>
+                    <span id="seconds"></span>
+                </div>
+            </div>
+        </big></a>
+    </center>
+    <script type="text/javascript">
+        function countdown() {
+            const eventDate = new Date("August 1, 2024 13:00:00").getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("days").innerText = days;
+                document.getElementById("hours").innerText = hours;
+                document.getElementById("minutes").innerText = minutes;
+                document.getElementById("seconds").innerText = seconds;
+            } else {
+                document.getElementById("countdown").innerHTML = "Event has passed!";
+            }
+        }
+
+        setInterval(countdown, 1000);
+    </script>
+</div>
+
+
+
+
+
+<br>
+
+
+
+
+
+<center>
+    <div class="div-90">
+        <br>
+<!--        <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">ПРИГЛАШАЕМ НА РЕЧЬ</font></h2>-->
+<!--        <br>-->
+<!--        <div class="wrapper">-->
+<!--            <div>-->
+<!--                <div>-->
+<!--                    &lt;!&ndash;                    <a><img src="/css/images/sn-left.jpg" alt="" class="leftpic" width="50%" ismap></a>&ndash;&gt;-->
+<!--                    <a><img src="/css/images/sa-left.png" alt="" class="leftpic" width="50%" ismap></a>-->
+<!--                </div>-->
+
+<!--                <div class="rightinfo">-->
+
+<!--                    <small>-->
+<!--                        <a><strong><u><i>1 августа в 13:00</i></u></strong> по адресу <span class="blue-text">str. Mihai Eminescu, Rîşcani</span> будет произнесена свадебная речь, основанная на Библии.-->
+<!--                            Чтобы ее прослушать используйте цифры для входа. Просим подключиться заранее (за 15 минут):</a>-->
+<!--                        <div class="numbers-div">-->
+<!--                            <h6 style="font-family: 'Avenir Next Cyr';" class="blue-text"><i>207 326 8731</i></h6>-->
+<!--                            <h6 style="font-family: 'Avenir Next Cyr';">129399</h6>-->
+<!--                        </div>-->
+<!--                        <a>(или по кнопке ниже)</a>-->
+<!--                    </small>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+        <img class="call-img" src="/css/images/callimg.png">
+
+        <br><br><br>
+
+        <form action="https://jworg.zoom.us/j/2073268731?pwd=VDBCOUdham1RSXBxSnYwVEhHSUtrZz09">
+            <input type="submit" class="blue-button" value="ПОДКЛЮЧИТЬСЯ К ТРАНСЛЯЦИИ" />
+        </form>
+
+        <br><br>
+    </div>
+</center>
+
+
+
+
+
+
+
+<center>
+    <div class="div-100">
+        <br>
+        <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">ПОСЛЕ СВАДЕБНОЙ РЕЧИ</font></h2>
+        <br>
+        <div class="div-100-image">
+            <div class="div-90-text">
+                <a><strong><u><i>1 августа в 18:00</i></u></strong> у гостей будет возможность отпраздновать свадьбу в формате
+                    <span class="blue-text"><i>праздничного ужина</i></span>, насладившись живым <span class="blue-text"><i>общением</i></span>
+                    и <span class="blue-text"><i>танцами</i></span></a>
+                <br><br>
+                <a><i><span class="blue-text">Адрес:</span> <strong>Costeşti, «Pensiunea Prut» Duruitoarea Veche</strong></i></a>
+            </div>
+        </div>
+    </div>
+</center>
+
+
+<br><br>
+
+
+<center>
+    <div class="div-100">
+        <br>
+        <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">( ФОТОЧКИ )</font></h2>
+        <br>
+        <div class="div-90">
+            <img class="desk-img" src="/css/images/desk.png">
+        </div>
+    </div>
+</center>
+
+
+
+<br><br>
+
+
+<!--<center>-->
+<!--    <div class="div-100">-->
+<!--        <br>-->
+<!--        <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">( ВОПРОСЫ )</font></h2>-->
+<!--        <br>-->
+
+<!--        <div class="div-90">-->
+<!--        <form action="">-->
+<!--            <input type="submit" class="blue-question-button" value="Можно ли прийти на роспись?" />-->
+<!--        </form>-->
+<!--        <form action="">-->
+<!--            <input type="submit" class="blue-question-button" value="Будет ли дресс-код?" />-->
+<!--        </form>-->
+<!--        <form action="">-->
+<!--            <input type="submit" class="blue-question-button" value="Можно ли поучавствоать в программе?" />-->
+<!--        </form>-->
+<!--        <form action="">-->
+<!--            <input type="submit" class="blue-question-button" value="Что подарить?" />-->
+<!--        </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</center>-->
+
+
+
+<!--<br><br>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="div-100">-->
+
+<!--    <center>-->
+<!--        <div class="div-90">-->
+<!--            <br>-->
+<!--            <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">( ОБРАТНАЯ СВЯЗЬ )</font></h2>-->
+<!--            <h7 style="font-family: 'Avenir Next Cyr';"><font class="blue-text"><i>пожалуйста, подтвердите своё присутствие на нашей свадьбе</i></font></h7>-->
+<!--            <br>-->
+<!--        </div>-->
+<!--    </center>-->
+<!--    <div class="div-100" style="padding-left: 5%; padding-right: 5%;">-->
+<!--        <div class="input-container">-->
+<!--            <input type="text" id="name" name="name" placeholder=" " required>-->
+<!--            <label for="name"><a>ваше имя и фамилия <span style="color: orangered">*</span> </a></label>-->
+
+<!--        </div>-->
+
+<!--        <br>-->
+
+<!--        <label for="phone"><a style="color: gray;">номер телефона <span style="color: orangered">*</span> </a></label>-->
+<!--        <div class="phone-container">-->
+<!--            <div class="country-code" style="display: inline;">-->
+<!--                &lt;!&ndash;                <img style="width: 5%;" src="https://img.icons8.com/?size=100&id=15528&format=png&color=000000" alt="Russia">&ndash;&gt;-->
+<!--                <img style="width: 5%;" src="https://img.icons8.com/?size=100&id=CmtUskf2eS68&format=png&color=000000" alt="Russia">-->
+<!--                <a>-->
+<!--                    <select id="country-code" name="country-code">-->
+<!--                        <option value="+373">+373</option>-->
+<!--                        <option value="+7">+7</option>-->
+<!--                        <option value="+1">+1</option>-->
+<!--                        <option value="+44">+44</option>-->
+<!--                        &lt;!&ndash; Add more country codes as needed &ndash;&gt;-->
+<!--                    </select>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div style="display: inline;">-->
+<!--                <a><input type="text" id="phone" name="phone" placeholder="912 345-67-89" required></a>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <br>-->
+
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="yes" required>-->
+<!--            <a><big>С удовольствием приду!</big></a>-->
+<!--        </label>-->
+<!--        <br>-->
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="no" required>-->
+<!--            <a><big>К сожалению, не получится</big></a>-->
+<!--        </label>-->
+<!--        <br>-->
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="later" required>-->
+<!--            <a><big>Дам ответ позднее</big></a>-->
+<!--        </label>-->
+
+<!--            <br>-->
+
+<!--        <div class="input-container">-->
+<!--            <input type="text" id="comment" name="comment" placeholder=" " required>-->
+<!--            <label for="comment"><a>в каком составе вас ожидать?</a></label>-->
+<!--        </div>-->
+
+<!--        <p><a style="color: gray;">если вы выбрали 3-й вариант, пожалуйста, вернитесь позднее и отправьте ответ</a></p>-->
+<!--        <form action="https://google.com">-->
+<!--            <input type="submit" class="blue-button" value="ОТПРАВИТЬ" />-->
+<!--        </form>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+
+
+<form action="/requests/create" method="post" th:object="${request}">
+<div class="div-100">
+
+    <center>
+        <div class="div-90">
+            <br>
+            <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">( ОБРАТНАЯ СВЯЗЬ )</font></h2>
+            <h7 style="font-family: 'Avenir Next Cyr';"><font class="blue-text"><i>пожалуйста, подтвердите своё присутствие на нашей свадьбе</i></font></h7>
+            <br>
+        </div>
+    </center>
+    <div class="div-100" style="padding-left: 5%; padding-right: 5%;">
+        <div class="input-container">
+            <input type="text" id="name" name="name" placeholder=" " th:field="*{nameSurname}" required>
+            <label for="name"><a>ваше имя и фамилия <span style="color: orangered">*</span> </a></label>
+
+        </div>
+
+        <br>
+
+        <label for="phone"><a style="color: gray;">номер телефона <span style="color: orangered">*</span> </a></label>
+        <div class="phone-container">
+            <div class="country-code" style="display: inline;">
+                <!--                <img style="width: 5%;" src="https://img.icons8.com/?size=100&id=15528&format=png&color=000000" alt="Russia">-->
+                <img style="width: 5%;" id="flag-image" src="https://img.icons8.com/?size=100&id=CmtUskf2eS68&format=png&color=000000" alt="Country Flag">
+                <a>
+                    <select id="country-code" name="country-code" onchange="changeFlag(this.value)" th:field="*{phoneCode}" required>
+                        <option value="+373">+373</option>
+                        <option value="+7">+7</option>
+                        <option value="+1">+1</option>
+                        <option value="+44">+44</option>
+                        <!-- Add more country codes as needed -->
+                    </select>
+                </a>
+                <script>
+                    function changeFlag(countryCode) {
+                        var flagImage = document.getElementById('flag-image');
+
+                        // Здесь можно сделать соответствие между кодом страны и URL изображения флага
+                        switch (countryCode) {
+                            case "+373":
+                                flagImage.src = "https://img.icons8.com/?size=100&id=CmtUskf2eS68&format=png&color=000000";
+                                break;
+                            case "+7":
+                                flagImage.src = "https://img.icons8.com/?size=100&id=15528&format=png&color=000000";
+                                break;
+                            case "+1":
+                                flagImage.src = "https://img.icons8.com/?size=100&id=15532&format=png&color=000000"; // URL для кода +1
+                                break;
+                            case "+44":
+                                flagImage.src = "https://img.icons8.com/?size=100&id=15534&format=png&color=000000"; // URL для кода +44
+                                break;
+                            // Добавьте дополнительные case для других кодов стран при необходимости
+                            default:
+                                flagImage.src = "https://img.icons8.com/?size=100&id=CmtUskf2eS68&format=png&color=000000"; // По умолчанию
+                        }
+                    }
+                </script>
+            </div>
+            <div style="display: inline;">
+                <a><input type="text" id="phone" name="phone" placeholder="912 345-67-89" th:field="*{phoneNumber}" required></a>
+                <script>
+                    var element = document.getElementById('phone');
+                    var maskOptions = {
+                        mask: '000 000 00-00',
+                        lazy: false
+                    }
+                    var mask = new IMask(element, maskOptions);
+                </script>
+            </div>
+        </div>
+
+        <br>
+
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="yes" required>-->
+<!--            <a><big>С удовольствием приду!</big></a>-->
+<!--        </label>-->
+<!--        <br>-->
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="no" required>-->
+<!--            <a><big>К сожалению, не получится</big></a>-->
+<!--        </label>-->
+<!--        <br>-->
+<!--        <label>-->
+<!--            <input type="radio" name="response" value="later" required>-->
+<!--            <a><big>Дам ответ позднее</big></a>-->
+<!--        </label>-->
+
+
+
+        <label><input type="radio" th:field="*{requestStatus}" th:value="Yes" required><a><big> С удовольствием приду!</big></a></label> <br>
+        <label><input type="radio" th:field="*{requestStatus}" th:value="No" required><a><big> К сожалению, не получится</big></a></label> <br>
+        <label><input type="radio" th:field="*{requestStatus}" th:value="Later" required><a><big> Дам ответ позднее</big></a></label> <br>
+
+
+        <div class="input-container">
+            <input type="text" id="comment" name="comment" placeholder=" " th:field="*{structure}" required>
+            <label for="comment"><a>в каком составе вас ожидать?</a></label>
+        </div>
+
+        <p><a style="color: gray;">если вы выбрали 3-й вариант, пожалуйста, вернитесь позднее и отправьте ответ</a></p>
+<!--        <form action="https://google.com">-->
+<!--            <input type="submit" class="blue-button" value="ОТПРАВИТЬ" />-->
+<!--        </form>-->
+        <button type="submit" value="Create" class="blue-button">ОТПРАВИТЬ</button>
+    </div>
+
+</div>
+</form>
+
+
+
+
+
+
+
+
+<br><br>
+
+
+<!--<form action="/requests/create" method="post" th:object="${request}">-->
+<!--    <label>Имя и фамилия: <input type="text" th:field="*{nameSurname}" required/></label> <br> <br>-->
+
+<!--    <label>Код страны: <select th:field="*{phoneCode}" required>-->
+<!--        <option value="+333">+333</option>-->
+<!--        <option value="+7">+7</option>-->
+<!--        <option value="+8">+8</option>-->
+<!--    </select></label> <br> <br>-->
+
+<!--    <label>Номер телефона:  <input type="text" th:field="*{phoneNumber}" required/></label> <br> <br>-->
+
+<!--    <label>Статус заявки:</label> <br>-->
+<!--    <label><input type="radio" th:field="*{requestStatus}" th:value="Yes" required>С удовольствием приду!</label> <br>-->
+<!--    <label><input type="radio" th:field="*{requestStatus}" th:value="No" required>К сожалению, не получится</label> <br>-->
+<!--    <label><input type="radio" th:field="*{requestStatus}" th:value="Later" required>Дам ответ позднее</label> <br> <br>-->
+
+
+<!--    <label>Описание: <input type="text" th:field="*{structure}" required/></label> <br> <br>-->
+<!--    <button type="submit" value="Create" class="add-btn">Добавить</button> <br><br>-->
+<!--</form>-->
+
+
+
+<center>
+    <div class="div-100">
+        <br>
+        <h2 style="font-family: 'Avenir Next Cyr';"><font class="blue-text">( АДРЕС МЕРОПРИЯТИЯ )</font></h2>
+        <br>
+
+        <div class="wrapper">
+            <div>
+                <center>
+                    <a><font color="darkgray"><small>
+                        <div id="map-test" class="map"> </div>
+                        <script type="text/javascript">
+
+                            let center = [47.87774040429875, 27.256697507724542]
+                            function init(){
+                                let map = new ymaps.Map('map-test', {
+                                    center: center,
+                                    zoom: 15
+                                });
+
+                                let placemark = new ymaps.Placemark([47.87774040429875, 27.256697507724542], {
+                                    balloonContent: `
+            <div class="balloon">
+                <div class="balloon_text_block">
+                  <div class="balloon_name"><h6><b>«Pensiunea Prut» Duruitoarea Veche</b></h6></div>
+                  <div class="balloon_address"><h6>Costeşti</h6></div>
+                  <hr>
+                  <div class="balloon_text">Duruitoarea Veche Costeşti MD, MD-5618</div>
+                </div>
+            </div>
+            `
+
+                                }, {
+                                    iconLayout: 'default#image',
+                                    iconImageHref: '/css/images/placelogo.png',
+                                    iconImageSize: [25, 25],
+                                    iconImageOffset: [-10, -10] // Отступ от центра
+                                });
+
+                                map.controls.remove('geolocationControl'); // удаляем геолокацию
+                                map.controls.remove('searchControl'); // удаляем поиск
+                                map.controls.remove('trafficControl'); // удаляем контроль трафика
+                                map.controls.remove('typeSelector'); // удаляем тип
+                                map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
+                                map.controls.remove('zoomControl'); // удаляем контрол зуммирования
+                                map.controls.remove('rulerControl'); // удаляем контрол правил
+                                map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+
+                                map.geoObjects.add(placemark);
+                            }
+
+                            ymaps.ready(init);
+                        </script>
+                        <br />
+
+                    </small></font></a>
+                </center>
+            </div>
+        </div>
+
+    </div>
+</center>
+
+
+
+
+<br>
+
+
+
+
+<br />
+
+<footer>
+    <center>
+        <br>
+        <h1 style="font-family: 'Avenir Next Cyr';">(КОНТАКТЫ)</h1>
+        <br>
+        <u><h1><a href="https://web.telegram.org/k/#95846871" class="footertext">telegram</a></h1></u>
+        <br>
+        <u><h1><a class="footertext">  </a></h1></u>
+        <br><br>
+        <br>
+    </center>
+</footer>
+</body>

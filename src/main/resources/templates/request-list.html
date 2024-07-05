@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/css/images/siteicon.png" />
+    <meta charset="UTF-8">
+    <title>Пользователи</title>
+    <link rel="stylesheet" href="src/main/resources/static/css/styles.css" th:href="@{/css/styles.css}">
+</head>
+<body>
+
+<h2 class="text-center mb-4">Список заявок</h2>
+<br>
+<center>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Имя и фамилия</th>
+            <th>Номер</th>
+            <th>Статус</th>
+            <th>Описание</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="request : ${requests}">
+            <td th:text="${request.requestID}"></td>
+            <td th:text="${request.nameSurname}"></td>
+            <td>
+                <!-- Объединяем requestStatus и structure в одной ячейке -->
+                <span th:text="${request.phoneCode} + ' ' + ${request.phoneNumber}"></span>
+            </td>
+            <td th:text="${request.requestStatus}"></td>
+            <td th:text="${request.structure}"></td>
+<!--            <td>-->
+<!--                <a th:href="@{/requests/update/{id}(id=${request.requestID})}">Update</a>-->
+<!--                <a th:href="@{/requests/delete/{id}(id=${request.requestID})}">Delete</a>-->
+<!--            </td>-->
+        </tr>
+        </tbody>
+    </table>
+</center>
+<br><br>
+
+<!--<center>-->
+<!--    <a href="/requests/create" class="add-btn">Добавить заявку</a> <br><br>-->
+<!--</center>-->
+
+<hr><br>
+
+<center>
+    <div class="navigation">
+        <form method="get">
+            <a href="/" class="btn btn-success btn-block mb-3 animated-button">
+                Назад
+            </a>
+        </form>
+    </div>
+</center>
+
+
+</body>
+</html>
